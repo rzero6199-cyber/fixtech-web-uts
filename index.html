@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+</head>
+<body
+    style="margin: 0; font-family: Arial; background-color: white; min-height: 100vh; display: flex; flex-direction: column;">
+
+    <div class="navbar"
+        style="background-color: darkblue; color: white; padding: 20px; display: flex; justify-content: space-between; align-items: center;">
+        <div class="logo" style="font-size: 25px; font-weight: bold;">
+            FIXTECH
+        </div>
+
+        <div class="menu" style="display: flex; gap: 25px;">
+            <a href="index.html" style="color: white;">Home</a>
+            <a href="about.html" style="color: white;">About</a>
+            <a href="kontak.html" style="color: white;">Kontak</a>
+        </div>
+    </div>
+
+    <div class="hero" style="display: flex; align-items: center; gap: 30px; padding: 50px;">
+        <div class="isi" style="flex: 1;">
+            <h1 class="judul" style="color: darkblue; font-size: 38px; text-align: center;">
+                Solusi Servis Komputer dan Laptop
+            </h1>
+
+            <p style="font-size: 17px; text-align: center;">
+                FIXTECH menyediakan layanan perbaikan laptop
+                dan komputer dengan cepat dan terpercaya.
+            </p>
+        </div>
+    </div>
+
+    <div class="layanan" style="text-align: center; padding: 30px;">
+        <h2 style="color: darkblue;">Layanan Kami</h2>
+        <div class="cards" style="display: flex; justify-content: center; gap: 20px;">
+            <div class="card"
+                style="background-color: white; width: 300px; padding: 15px; border-radius: 10px;">
+                <img src="images/servis-laptop.jpg" alt="Servis laptop" style="width: 100%;">
+                <h3>Perbaikan Laptop</h3>
+                <p>Melayani perbaikan laptop yang mengalami kerusakan.</p>
+            </div>
+
+            <div class="card"
+                style="background-color: white; width: 300px; padding: 15px; border-radius: 10px;">
+                <img src="images/processor.jpg" alt="Servis laptop" style="width: 100%;">
+                <h3>Perbaikan Komputer</h3>
+                <p>Membantu mengatasi masalah hardware dan software komputer.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer"
+        style="background-color: darkblue; color: white; text-align: center; padding: 15px; margin-top: auto;">
+        <p>MUHAMMAD FIQRI_2026 FIXTECH</p>
+    </div>
+
+</body>
+
+<style>
+    @media screen and (max-width: 768px) {
+
+        .navbar {
+            gap: 15px;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 25px;
+        }
+
+        .gambar {
+            width: 100%;
+        }
+
+        .cards {
+            align-items: center;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+
+        .menu {
+            gap: 15px;
+        }
+
+        .judul {
+            font-size: 27px;
+        }
+
+        .card {
+            width: 100%;
+        }
+    }
+</style>
+</html>
